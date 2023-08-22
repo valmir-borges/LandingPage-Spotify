@@ -43,7 +43,7 @@ article {
     flex-direction: column;
     text-align: center;
 }
-.div-assine-ja span {
+.div-assine-ja .span-header {
     color: black;
     display: block;
 }
