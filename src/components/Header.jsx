@@ -1,27 +1,27 @@
-import "./css/header.css";
+import Style from "./css/header.module.css";
 import logo from "./img/logo spotify.png";
 function Header (props){
     return(
         <>
-        <header>
-            <article>
+        <header className={Style.header}>
+            <article className={Style.article}>
                 <div>
                     <img src={logo} alt="Logo do app Spotify" />
                 </div>
-                <div>
-                    <span className="span-header header-hover">Políticas</span>
+                <div className={Style.divheader}>
+                    <span className={Style.spanheader||Style.headerhover}>Políticas</span>
                 </div>
-                <div>
-                    <span className="span-header header-hover">Benefícios</span>
+                <div className={Style.divheader}>
+                    <span className={Style.spanheader||Style.headerhover}>Benefícios</span>
                 </div>
-                <div>
-                    <span className="span-header header-hover">Planos</span>
+                <div className={Style.divheader}>
+                    <span className={Style.spanheader||Style.headerhover}>Planos</span>
                 </div>
-                <div>
-                    <span className="span-header header-hover">Suporte</span>
+                <div className={Style.divheader}>
+                    <span className={Style.spanheader||Style.headerhover}>Suporte</span>
                 </div>
-                <div className="div-assine-ja">
-                    <span className="span-header">Assine já</span>
+                <div className={Style.divassineja}>
+                    <span className={Style.spanheader}>Assine já</span>
                 </div>
             </article>
         </header>

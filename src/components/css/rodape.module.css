@@ -14,29 +14,29 @@
     padding-top: 1.5rem;
     gap: 5rem;
 }
-.footer-icons {
+.footericons {
     display: flex;
     flex-direction: row;
     gap: 60rem;
 }
-.footer-icons-social {
+.footericonssocial {
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
-.span-footer {
+.spanfooter {
     display: flex;
     flex-direction: row;
     gap: 5rem;
     margin-bottom: 3rem;
 }
-.span-footer span{
+.spanfooter span{
     font-size: 0.8rem;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
     color: #919496!important;
 }
-.background-icon-footer {
+.backgroundiconfooter {
     border-radius: 50%;
     background-color: #222326;
     width: 54px;

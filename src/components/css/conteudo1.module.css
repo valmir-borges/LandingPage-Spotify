@@ -31,7 +31,7 @@ span {
     flex-direction: column;
     gap: 3.5rem;
 }
-.sub-titulo {
+.subtitulo {
     width: 60%;
 }
 .experimente {
@@ -50,4 +50,7 @@ span {
 }
 .experimente:hover {
     transform: scale(1.1);
+}
+.experimente span:hover {
+    color: #1ED760;
 }
