@@ -3,22 +3,22 @@ import logo from "./img/logo spotify.png";
 function Header (props){
     return(
         <>
-        <header className={Style.header}>
-            <article className={Style.article}>
+        <header>
+            <article>
                 <div>
                     <img src={logo} alt="Logo do app Spotify" />
                 </div>
-                <div className={Style.divheader}>
-                    <span className={Style.spanheader||Style.headerhover}>Políticas</span>
+                <div>
+                    <span className={Style.spanheader||Style.spanhover}>Políticas</span>
                 </div>
-                <div className={Style.divheader}>
-                    <span className={Style.spanheader||Style.headerhover}>Benefícios</span>
+                <div>
+                    <span className={Style.spanheader||Style.spanhover}>Benefícios</span>
                 </div>
-                <div className={Style.divheader}>
-                    <span className={Style.spanheader||Style.headerhover}>Planos</span>
+                <div>
+                    <span className={Style.spanheader||Style.spanhover}>Planos</span>
                 </div>
-                <div className={Style.divheader}>
-                    <span className={Style.spanheader||Style.headerhover}>Suporte</span>
+                <div>
+                    <span className={Style.spanheader||Style.spanhover}>Suporte</span>
                 </div>
                 <div className={Style.divassineja}>
                     <span className={Style.spanheader}>Assine já</span>

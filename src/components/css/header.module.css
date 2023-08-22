@@ -50,7 +50,7 @@ article {
 header>article>div>img {
     height: 3rem
 }
-.header .article .divheader .headerhover:hover{
+header article div span:hover{
     color: #1ED760;
     border-bottom: 0.2rem solid #1ED760;
     border-radius: 5px;
