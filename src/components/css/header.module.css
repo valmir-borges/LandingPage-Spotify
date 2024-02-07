@@ -33,7 +33,6 @@ article {
     font-size: 1rem;
 }
 .divassineja{
-    background-color: #1ED760;
     border-radius: 50px;
     width: 130px;
     height: 35px;
@@ -44,13 +43,28 @@ article {
     text-align: center;
 }
 .divassineja .spanheader {
-    color: black;
+    color: #ffff;
     display: block;
+    background-color: transparent;
+    border: 1px solid #1ED760;
+    border-radius: 50px;
+    width: 130px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.divassineja .spanheader:hover{
+    background-color: #1ED760;
+    color: #121212;
+    transition-duration: 1s;
 }
 header>article>div>img {
     height: 3rem
 }
-header article div span:hover{
+header article div .spanhover:hover{
     color: #1ED760;
     border-bottom: 0.2rem solid #1ED760;
     border-radius: 5px;
